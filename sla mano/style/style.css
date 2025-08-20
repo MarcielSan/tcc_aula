@@ -52,6 +52,7 @@ h1{
 
 .container-destaques{
     margin-left: 18rem;
+    transition: transform 0.2s ease;
 }
 
 .produto1,
@@ -74,10 +75,18 @@ h1{
     border-radius: 15px;
 }
 
+.caixas-produtos:hover{
+    transform: scale(1.01);
+}
+
 .body-text{
     color: #757575;
 }
 
 .preco-produtos{
     font-weight: 700;
+}
+.preco-produtos{
+    font-weight: 700;
+
 }

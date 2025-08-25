@@ -1,0 +1,55 @@
+:root {
+    --background-color: #2B2B2B;
+    --text-color: #FFFFFF;
+}
+
+body {
+    background-color: #890BF1;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(to bottom, #890BF1, #1E1E1E);
+}
+
+header{
+    background: #1E1E1E;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.barra-pesquisa{
+    color: white;
+    font-size: 16px;
+    background-color: #757575;
+    margin-top: 0.2rem;
+    height: 35px;
+    width: 600px;
+    border-radius: 20px;
+    border: transparent;
+}
+
+.caixa-principal{
+    background-color: #890BF1;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    background-image: linear-gradient(to bottom, #890BF1, #1E1E1E);
+}
+
+
+.botao-interacao {
+    background-color: #1E1E1E;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: transform 0.2s ease;
+}

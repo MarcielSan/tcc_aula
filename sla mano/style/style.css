@@ -1,92 +1,157 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Boldonse&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-body{
+body {
+    font-family: Arial, sans-serif;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
-    background-color: #2B2B2B;
+    background: linear-gradient(to bottom, #8a0bf1ec , #1e1e1e 41rem);
 }
 
 header{
-    background: #1E1E1E;
-    display: flex;
+    background: #000000b7;
     justify-content: space-between;
     padding: 20px;
+    display: flex;
+
+}
+
+.login {
+    display: flex;
 }
 
 .barra-pesquisa{
-    color: white;
+    color: #000000;
     font-size: 16px;
     background-color: #757575;
     margin-top: 0.2rem;
-    height: 35px;
-    width: 600px;
-    border-radius: 25px;
-    border: transparent;
-}
-
-.icones-header{
-    margin-left: 1.5rem;
-}
-
-.container-imagem-promocao{
-    text-align: center;
-    margin-top: 5rem;
-}
-
-.imagem-promocao{
-    transition: transform 0.2s ease;
-}
-
-.imagem-promocao:hover{
-    transform: scale(1.01);
-}
-
-h1{
-    font-size: 80px;
-    margin-top: 10rem;
-    margin-left: 6rem;
-    font-weight: 1000px;
-    color: white;
-    font: bold;
-}
-
-.container-destaques{
-    margin-left: 18rem;
-    transition: transform 0.2s ease;
-}
-
-.produto1,
-.produto2{
-    display: flex;
-}
-
-
-
-.imagem-produtos-destaques{
-    text-align: center;
-}
-
-.caixas-produtos{
-    background-color: white;
-    padding: 30px;
-    margin: 1rem;
-    height: 370px;
-    width: 250px;
+    margin-left: 35rem;
+    height: 45px;
+    width: 750px;
     border-radius: 15px;
+    border: none;
 }
 
-.caixas-produtos:hover{
-    transform: scale(1.01);
+
+
+.botao-interacao {
+    color: #000000;
+    background-color: #890BF1;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 1.5rem;
+    transition: transform 0.2s ease;
+
+}
+.botao-interacao:hover{
+    transform: scale(1.2);
 }
 
-.body-text{
-    color: #757575;
+.botao-interacao2 {
+    color: #000000;
+    background-color: #d9d9d941;
+    border: 1px solid #890BF1;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 1.5rem;
+    transition: transform 0.2s ease;
+
+}
+.botao-interacao2:hover{
+    transform: scale(1.2);
 }
 
-.preco-produtos{
-    font-weight: 700;
-}
-.preco-produtos{
-    font-weight: 700;
 
+.caixa-principal{
+    padding: 150px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 450px;
+    background: linear-gradient(to bottom, #8a0bf186 , #1e1e1ed7 );
+    margin: 7rem auto 0 auto;
+    color: rgb(255, 255, 255);
+}
+
+.texto-principal {
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;    
+}
+
+.apresentacao-caixa {
+    color: #d6d6d6;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+input[type="email"], input[type="password"] {
+    width: 20rem;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.botao-logavel {
+    color: #000000;
+    background-color: #890BF1;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 20rem;
+    height: 50px;
+    font-size: 16px;
+    margin: 10px 0;
+    transition: transform 0.2s ease;
+}
+
+.botao-logavel:hover{
+    transform: scale(1.1);
+}
+
+.botao-outra-plataforma {
+    width: 20rem;
+    height: 50px;
+    margin-bottom: 5px;
+    border-color: #890BF1;
+    border-radius: 10PX;
+}
+
+.botao-outra-plataforma2 {
+    width: 20rem;
+    height: 50px;
+    margin-top: 5px;
+    border-color: #3b5998;
+    border-radius: 10PX;
+}
+
+.Cadastrando {
+
+    display: flex;
+    margin-top: 10px;
+    font-size: large;
+}
+
+.texto-final {
+    margin-right: 5px;
+}
+
+.link-de-cadastro{
+    position: relative;
+    top: 18px;
 }

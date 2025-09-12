@@ -4,6 +4,7 @@ body {
     height: 100vh;
     margin: 0;
     background: linear-gradient(to bottom, #8a0bf1ec , #1e1e1e 41rem);
+    overflow-y: hidden;
 }
 
 header{
@@ -76,16 +77,18 @@ header{
     border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 300px;
-    height: 450px;
+    height: 400px;
     background: linear-gradient(to bottom, #8a0bf186 , #1e1e1ed7 );
-    margin: 7rem auto 0 auto;
+    margin: 5rem auto auto auto;
     color: rgb(255, 255, 255);
+    border: 1px solid #000000;
 }
 
 .texto-principal {
     color: #ffffff;
     text-align: center;
-    font-size: 24px;    
+    font-size: 24px;
+    margin-top: -5rem;    
 }
 
 .apresentacao-caixa {
@@ -154,4 +157,45 @@ input[type="email"], input[type="password"] {
 .link-de-cadastro{
     position: relative;
     top: 18px;
+}
+
+.rodape{
+    background: linear-gradient(to bottom, #1e1e1ed7,  #8a0bf186);
+    display: flex;
+    height: 100px;
+    padding: 100px;
+    margin-top: 10px;
+    border-margin: 0;
+}
+
+.caixa-final {
+    display: flex;
+    margin-left: 20rem;
+    font-size: small;
+    color: #d6d6d6;
+}
+
+.insta {
+    margin-left: -20rem;
+    margin-right: 20px;
+    margin-top: -8rem;
+
+}
+
+.X{
+    margin-left: -17rem;
+    margin-right: 20px;
+    margin-top: -8rem;
+}
+
+.Youtube {
+    margin-left: -14rem;
+    margin-right: 20px;
+    margin-top: -8rem;
+}
+
+.container-contatos {
+    
+    margin-left: -4rem;
+    margin-top: -6rem;
 }

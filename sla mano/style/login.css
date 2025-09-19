@@ -22,7 +22,7 @@ header{
 .barra-pesquisa{
     color: #000000;
     font-size: 16px;
-    background-color: #757575;
+    background-color: rgba(255, 255, 255, 0.952);
     margin-top: 0.2rem;
     margin-left: 35rem;
     height: 32px;
@@ -31,12 +31,13 @@ header{
     border: none;
     position: absolute;
     padding: 9px;
+    white-space: nowrap;
 }
 
 .lupa{
     position: relative;
     left: 79.5rem;
-    margin-top: 17px;
+    margin-top: 14px;
     width: 2rem;
 }
 

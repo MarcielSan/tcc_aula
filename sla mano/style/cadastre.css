@@ -1,0 +1,235 @@
+body {
+    font-family: Arial, sans-serif;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #8a0bf1ec , #1e1e1e 41rem);
+    overflow-y: hidden;
+}
+
+header{
+    background: #000000b7;
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+
+}
+
+.login {
+    display: flex;
+}
+
+.barra-pesquisa{
+    color: #000000;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.952);
+    margin-top: 0.2rem;
+    margin-left: 35rem;
+    height: 32px;
+    width: 750px;
+    border-radius: 15px;
+    border: none;
+    position: absolute;
+    padding: 9px;
+    white-space: nowrap;
+    padding-right: 70px; /* Para dar espaço à lupa */
+
+}
+
+.lupa{
+    position: relative;
+    left: 83.5rem;
+    margin-top: 14px;
+    width: 2rem;
+    
+}
+
+
+.botao-interacao {
+    color: #000000;
+    background-color: #890BF1;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 1.5rem;
+    transition: transform 0.2s ease;
+
+}
+.botao-interacao:hover{
+    transform: scale(1.2);
+}
+
+.botao-interacao2 {
+    color: #000000;
+    background-color: #d9d9d941;
+    border: 1px solid #890BF1;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 1.5rem;
+    transition: transform 0.2s ease;
+
+}
+.botao-interacao2:hover{
+    transform: scale(1.2);
+}
+
+
+.caixa-principal{
+    padding: 150px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(to bottom, #8a0bf186 , #1e1e1ed7 );
+    margin: 5rem auto auto auto;
+    color: rgb(255, 255, 255);
+    border: 1px solid #000000;
+}
+
+.texto-principal {
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+    margin-top: -5rem;    
+}
+
+.apresentacao-caixa {
+    color: #d6d6d6;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+input[type="email"], input[type="password"] {
+    width: 20rem;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.botao-logavel {
+    color: #000000;
+    background-color: #890BF1;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 20rem;
+    height: 50px;
+    font-size: 16px;
+    margin: 10px 0;
+    transition: transform 0.2s ease;
+}
+
+.botao-logavel:hover{
+    transform: scale(1.1);
+}
+
+.texto-desejo-cliente{
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+}
+
+.botao-outra-plataforma{
+    width: 20rem;
+    height: 50px;
+    margin-bottom: 5px;
+    border-color: #890BF1;
+    border-radius: 10px;
+}
+
+.botao-outra-plataforma2 {
+    width: 20rem;
+    height: 50px;
+    margin-top: 5px;
+    border-color: #3b5998;
+    border-radius: 10PX;
+}
+
+.Cadastrando {
+    display: flex;
+    margin-top: 10px;
+    font-size: large;
+}
+
+.texto-final {
+    margin-right: 5px;
+}
+
+.link-de-cadastro{
+    position: relative;
+    top: 18px;
+}
+
+.rodape{
+    background: linear-gradient(to bottom, #1e1e1ed7,  #8a0bf186);
+    display: flex;
+    height: 100px;
+    padding: 100px;
+    margin-top: 10px;
+
+}
+
+.caixa-final {
+    display: flex;
+    margin-left: 20rem;
+    font-size: small;
+    color: #d6d6d6;
+}
+
+/*
+.insta {
+    margin-left: -20rem;
+    margin-right: 20px;
+    margin-top: -8rem;
+
+}
+
+.X{
+    margin-left: -17rem;
+    margin-right: 20px;
+    margin-top: -8rem;
+}
+
+.Youtube {
+    margin-left: -14rem;
+    margin-right: 20px;
+    margin-top: -8rem;
+}
+
+
+.container-contatos {
+    
+    margin-left: -4rem;
+    margin-top: -6rem;
+}
+
+h2 {
+    color: white;
+}
+*/
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #000000;
+    text-decoration: none;
+}

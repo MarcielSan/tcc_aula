@@ -22,7 +22,7 @@ header{
 .barra-pesquisa{
     color: #000000;
     font-size: 16px;
-    background-color: rgba(255, 255, 255, 0.952);
+    background-color: rgba(255, 255, 255, 0.726);
     margin-top: 0.2rem;
     margin-left: 35rem;
     height: 32px;
@@ -32,13 +32,16 @@ header{
     position: absolute;
     padding: 9px;
     white-space: nowrap;
+    padding-right: 70px; /* Para dar espaço à lupa */
+
 }
 
 .lupa{
     position: relative;
-    left: 79.5rem;
+    left: 83.5rem;
     margin-top: 14px;
     width: 2rem;
+    
 }
 
 
@@ -89,7 +92,7 @@ header{
     height: 400px;
     background: linear-gradient(to bottom, #8a0bf186 , #1e1e1ed7 );
     margin: 5rem auto auto auto;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.589);
     border: 1px solid #000000;
 }
 
@@ -113,7 +116,7 @@ input[type="email"], input[type="password"] {
     width: 20rem;
     padding: 10px;
     margin: 10px 0;
-    border: 1px solid #ccc;
+    border: 1px solid rgba(255, 255, 255, 0);
     border-radius: 15px;
     box-sizing: border-box;
 }
@@ -136,12 +139,18 @@ input[type="email"], input[type="password"] {
     transform: scale(1.1);
 }
 
-.botao-outra-plataforma {
+.texto-desejo-cliente{
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+}
+
+.botao-outra-plataforma{
     width: 20rem;
     height: 50px;
     margin-bottom: 5px;
     border-color: #890BF1;
-    border-radius: 10PX;
+    border-radius: 10px;
 }
 
 .botao-outra-plataforma2 {
@@ -153,7 +162,6 @@ input[type="email"], input[type="password"] {
 }
 
 .Cadastrando {
-
     display: flex;
     margin-top: 10px;
     font-size: large;
@@ -184,6 +192,7 @@ input[type="email"], input[type="password"] {
     color: #d6d6d6;
 }
 
+/*
 .insta {
     margin-left: -20rem;
     margin-right: 20px;
@@ -203,6 +212,7 @@ input[type="email"], input[type="password"] {
     margin-top: -8rem;
 }
 
+
 .container-contatos {
     
     margin-left: -4rem;
@@ -212,9 +222,10 @@ input[type="email"], input[type="password"] {
 h2 {
     color: white;
 }
+*/
 
 a {
-    color: #d6d6d6;
+    color: #ffffff;
     text-decoration: none;
 }
 

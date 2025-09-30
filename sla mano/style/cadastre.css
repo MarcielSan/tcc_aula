@@ -44,46 +44,6 @@ header{
     
 }
 
-
-.botao-interacao {
-    color: #000000;
-    background-color: #890BF1;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 25px;
-    cursor: pointer;
-    width: 150px;
-    height: 50px;
-    font-size: 16px;
-    margin-top: 10px;
-    margin-right: 1.5rem;
-    transition: transform 0.2s ease;
-
-}
-.botao-interacao:hover{
-    transform: scale(1.2);
-}
-
-.botao-interacao2 {
-    color: #000000;
-    background-color: #d9d9d941;
-    border: 1px solid #890BF1;
-    padding: 10px 20px;
-    border-radius: 25px;
-    cursor: pointer;
-    width: 150px;
-    height: 50px;
-    font-size: 16px;
-    margin-top: 10px;
-    margin-right: 1.5rem;
-    transition: transform 0.2s ease;
-
-}
-.botao-interacao2:hover{
-    transform: scale(1.2);
-}
-
-
 .caixa-principal{
     padding: 150px;
     border-radius: 25px;
@@ -139,41 +99,18 @@ input[type="email"], input[type="password"] {
     transform: scale(1.1);
 }
 
-.texto-desejo-cliente{
-    color: #ffffff;
-    text-align: center;
-    font-size: 16px;
+.Termos-de-uso{
+    color: #890BF1;
 }
 
-.botao-outra-plataforma{
-    width: 20rem;
-    height: 50px;
-    margin-bottom: 5px;
-    border-color: #890BF1;
-    border-radius: 10px;
+.Link-Termos {
+    color: white;
+    text-decoration: none;
 }
 
-.botao-outra-plataforma2 {
-    width: 20rem;
-    height: 50px;
-    margin-top: 5px;
-    border-color: #3b5998;
-    border-radius: 10PX;
-}
-
-.Cadastrando {
-    display: flex;
-    margin-top: 10px;
-    font-size: large;
-}
-
-.texto-final {
-    margin-right: 5px;
-}
-
-.link-de-cadastro{
-    position: relative;
-    top: 18px;
+.Link-Termos:hover{
+    color: orange;
+    text-decoration: none;
 }
 
 .rodape{
@@ -190,46 +127,4 @@ input[type="email"], input[type="password"] {
     margin-left: 20rem;
     font-size: small;
     color: #d6d6d6;
-}
-
-/*
-.insta {
-    margin-left: -20rem;
-    margin-right: 20px;
-    margin-top: -8rem;
-
-}
-
-.X{
-    margin-left: -17rem;
-    margin-right: 20px;
-    margin-top: -8rem;
-}
-
-.Youtube {
-    margin-left: -14rem;
-    margin-right: 20px;
-    margin-top: -8rem;
-}
-
-
-.container-contatos {
-    
-    margin-left: -4rem;
-    margin-top: -6rem;
-}
-
-h2 {
-    color: white;
-}
-*/
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-a:hover{
-    color: #000000;
-    text-decoration: none;
 }

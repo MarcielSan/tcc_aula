@@ -100,17 +100,17 @@ input[type="email"], input[type="password"] {
 }
 
 .Termos-de-uso{
-    color: #890BF1;
+    color: #ffffff;
+    margin-left: 24px;
 }
 
 .Link-Termos {
-    color: white;
-    text-decoration: none;
+    color: #ffffff;
 }
 
 .Link-Termos:hover{
-    color: orange;
-    text-decoration: none;
+    color: #a304ff;
+
 }
 
 .rodape{

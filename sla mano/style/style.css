@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: #2B2B2B;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    background-color: #000000;
+}
+
+.header-esquerda {
+    display: flex;
+}
+
+.LogoSite {
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    margin-left: 1rem;
+}
+
+.localizacao {
+    height: 40px;
+    width: 32px;
+    margin-top: ;
+    margin: 1rem;
+}
+
+.barra-pesquisa{
+    color: #000000;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.726);
+    margin-top: 0.2rem;
+    margin-left: 35rem;
+    height: 32px;
+    width: 750px;
+    border-radius: 15px;
+    border: none;
+    padding: 9px;
+    padding-right: 70px; /* Para dar espaço à lupa */
+
+}
+
+.header-direita {
+    display: flex;    
+}

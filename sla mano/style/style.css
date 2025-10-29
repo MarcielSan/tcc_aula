@@ -1,5 +1,4 @@
 body {
-<<<<<<< HEAD
     margin: 0;
     background-color: #2B2B2B;
 }
@@ -25,7 +24,6 @@ header {
 .localizacao {
     height: 40px;
     width: 32px;
-    margin-top: ;
     margin: 1rem;
 }
 
@@ -47,7 +45,3 @@ header {
 .header-direita {
     display: flex;    
 }
-=======
-    
-}
->>>>>>> 373fd9345d7f4b55357bef3ffe53e16a2209f2db

@@ -1,3 +1,60 @@
 body {
-    
+    background: linear-gradient(to bottom, #2B2B2B , #1e1e1e 41rem);
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.nav{
+    position: relative;
+    top: -0.4rem;
+    left: 8rem;
+}
+
+.barra-pesquisa{
+    border: transparent;
+    width: 500px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #757575;
+    color: rgb(202, 202, 202);
+    white-space: nowrap;
+    padding-right: 50px; /* Para dar espaço à lupa */
+    padding-left: 10px;
+}
+
+.user{
+    position: relative;
+    top: 0.25rem;
+}
+
+.boneco{
+    position: relative;
+    top: 0.4rem;
+    left: 4rem;
+}
+
+
+.lupa{
+    position: relative;
+    top: 8px;
+    right: 40px;
+}
+
+.coracao{
+    position: relative;
+    top: 0.25rem;
+    left: -1rem;
+}
+
+.carrinho{
+   position: relative;
+   top: 0.25rem;
 }

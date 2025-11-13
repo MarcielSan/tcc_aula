@@ -1,33 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ctrl Zone</title>
-    <link rel="stylesheet" href="./style/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ctrl Zone</title>
+  <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <header>
-        <div class="header-esquerda">
-            <img class="LogoSite" src="./imagem/TelaInicial/Header/LogoSite.png" alt="Logo do Site">
-            <img class="localizacao" src="./imagem/TelaInicial/Header/icone navegação.png" alt="Localização do usuário">
-        </div>
-        <div class="header-meio">
-            <input class="barra-pesquisa" type="text" placeholder="Procure aqui no CtrlZone">
-        </div>
-        <div class="header-direita">
-            <img src="./imagem/TelaInicial/Header/icone boneco.png" alt="Acessibilidade (eu acho)">
-            <img src="./imagem/TelaInicial/Header/icone coração.png" alt="Favoritos">
-            <img src="./imagem/TelaInicial/Header/icone carrinho.png" alt="Carriinho de compra">
-        </div>
-    </header>
+  <!-- Cabeçalho principal -->
+  <header class="site-header">
+    <div class="header-esquerda">
+      <a href="/" aria-label="Página inicial do Ctrl Zone">
+        <img class="logo-site" src="./imagem/TelaInicial/Header/LogoSite.png" alt="Logo do Ctrl Zone">
+      </a>
+      <a href="#"><img class="localizacao" src="./imagem/TelaInicial/Header/icone navegação.png" alt="Ícone de localização do usuário"></a>
+    </div>
 
-    <img src="./imagem/TelaInicial/propaganda/DescontoDoSite (1).png" alt="Propaganda da tela iniçial">
-    <script src="./java/script.js"></script>
-    <section class="destaques-produtos">
-        <div>
-            
-        </div>
+    <div class="header-meio">
+      <form action="#" method="get" class="form-pesquisa" role="pesquisa">
+        <label for="barra-pesquisa" class="sr-only">Buscar produtos</label>
+        <input id="barra-pesquisa" class="barra-pesquisa" type="search" placeholder="Procure aqui no Ctrl Zone" aria-label="Buscar produtos">
+      </form>
+    </div>
+
+    <nav class="header-direita" aria-label="Acesso rápido">
+      <button aria-label="Acessibilidade">
+        <img src="./imagem/TelaInicial/Header/icone boneco.png" alt="">
+      </button>
+      <button aria-label="Favoritos">
+        <img src="./imagem/TelaInicial/Header/icone coração.png" alt="">
+      </button>
+      <button aria-label="Carrinho de compras">
+        <img src="./imagem/TelaInicial/Header/icone carrinho.png" alt="">
+      </button>
+    </nav>
+  </header>
+
+  <!-- Banner principal -->
+  <section class="banner">
+    <a href="#"><img src="./imagem/TelaInicial/propaganda/DescontoDoSite (1).png" alt="Promoção de desconto do site"></a>
+  </section>
+
+  <!-- Seção de produtos em destaque -->
+  <main>
+    <section class="destaques-produtos" aria-labelledby="titulo-destaques">
+      <h2 id="titulo-destaques">Destaques</h2>
+      
+      <div class="lista-produtos">
+        <article class="produto">
+          <img src="./imagem/TelaInicial/ProdutosIniciais/Teclado.png" alt="Teclado gamer RGB">
+        </article>
+
+        <article class="produto">
+          <img src="./imagem/TelaInicial/ProdutosIniciais/ControleXbox.png" alt="Controle Xbox original">
+        </article>
+
+        <article class="produto">
+          <img src="./imagem/TelaInicial/ProdutosIniciais/Fone (1).png" alt="Fone de ouvido gamer">
+        </article>
+
+        <!-- Exemplo de produtos futuros -->
+        <article class="produto">
+          <img src="./imagem/TelaInicial/ProdutosIniciais/produto4.png" alt="Produto em destaque 4">
+        </article>
+
+        <article class="produto">
+          <img src="./imagem/TelaInicial/ProdutosIniciais/produto5.png" alt="Produto em destaque 5">
+        </article>
+
+        <article class="produto">
+          <img src="./imagem/TelaInicial/ProdutosIniciais/produto6.png" alt="Produto em destaque 6">
+        </article>
+      </div>
     </section>
+  </main>
+
+  <script src="./java/script.js" defer></script>
 </body>
 </html>

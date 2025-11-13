@@ -45,3 +45,9 @@ header {
 .header-direita {
     display: flex;    
 }
+
+@media screen and (min-width: 800px) {
+    div {
+    margin: 1em 2em;
+    }
+    }

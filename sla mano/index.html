@@ -7,74 +7,33 @@
   <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-  <!-- Cabeçalho principal -->
-  <header class="site-header">
-    <div class="header-esquerda">
-      <a href="#" aria-label="Página inicial do Ctrl Zone">
-        <img class="logo-site" src="./imagem/TelaInicial/Header/LogoSite 1.png" alt="Logo do Ctrl Zone">
-      </a>
-      <a href="#"><img class="localizacao" src="./imagem/TelaInicial/Header/icone navegação.png" alt="Ícone de localização do usuário"></a>
-    </div>
+    <header class="cabecario">
 
-    <div class="header-meio">
-      <form action="#" method="get" class="form-pesquisa" role="pesquisa">
-        <label for="barra-pesquisa" class="sr-only">Buscar produtos</label>
-        <input id="barra-pesquisa" class="barra-pesquisa" type="search" placeholder="Procure aqui no Ctrl Zone" aria-label="Buscar produtos">
-      </form>
-    </div>
+        <div class="header-esquerda">
+            <img class="LogoSite" src="./imagem/TelaInicial/Header/LogoSite.png" alt="Logo do Site">
+            <img class="localizacao" src="./imagem/TelaInicial/Header/icone navegação.png" alt="Localização do usuário">
+        </div>
+        <div class="header-meio">
+            <input class="barra-pesquisa" type="text" placeholder="Procure aqui no CtrlZone">
+            <img class="lupa" src="./imagem/Entrar/Header/search.png" alt="Lupa da pesquisa">
+            <img class="conta" src="./imagem/TelaInicial/Header/icone usuario.png" alt="Crie Conta">
+        </div>
+        <div class="header-direita">
+            <img class="boneco" src="./imagem/TelaInicial/Header/icone boneco.png" alt="Acessibilidade (eu acho)">
+            <img class="favoritos" src="./imagem/TelaInicial/Header/icone coração.png" alt="Favoritos">
+            <img class="carrinho" src="./imagem/TelaInicial/Header/icone carrinho.png" alt="Carriinho de compra">
+        </div>
+    </header>
 
-    <nav class="header-direita" aria-label="Acesso rápido">
-      <button aria-label="Conta">
-        <a href="./login.html">
-          <img src="./imagem/TelaInicial/Header/icone usuario.png" alt="">
-        </a>
-      </button>
-      <button aria-label="Favoritos">
-        <img src="./imagem/TelaInicial/Header/icone coração.png" alt="">
-      </button>
-      <button aria-label="Carrinho de compras">
-        <img src="./imagem/TelaInicial/Header/icone carrinho.png" alt="">
-      </button>
-    </nav>
-  </header>
+    <a href="#"><img class="desconto" src="./imagem/TelaInicial/propaganda/DescontoConcerto.png" alt="Propaganda da tela iniçial"></a>
+    <script src="./java/script.js"></script>
+    <section class="destaques-produtos">
+        <div class="produto">
+            <img src="./imagem/TelaInicial/ProdutosIniciais/Teclado.png" alt="Teclado-Produto">
+            <!--Éssa parte é necessário usaqr banco de dados, pois ficará as avaliações dos produtos-->
+            <h2 class="nome-produto">Havit KB892L</h2>
 
-  <!-- Banner principal -->
-  <section class="banner">
-    <a href="#"><img src="./imagem/TelaInicial/propaganda/DescontoConcerto.png" alt="Promoção de desconto do site"></a>
-  </section>
-
-  <!-- Seção de produtos em destaque -->
-  <main>
-    <section class="destaques-produtos" aria-labelledby="titulo-destaques">
-      <h2 id="titulo-destaques">Destaques</h2>
-      
-      <div class="lista-produtos">
-        <article class="produto">
-          <img src="./imagem/TelaInicial/ProdutosIniciais/Teclado.png" alt="Teclado gamer RGB">
-          <p>Teclado Sem Fio Logitech Signature K650, Bluetooth, USB, Com Apoio para as Mãos, US, Grafite - 920-010911</p>
-        </article>
-
-        <article class="produto">
-          <img src="./imagem/TelaInicial/ProdutosIniciais/ControleXbox.png" alt="Controle Xbox original">
-        </article>
-
-        <article class="produto">
-          <img src="" alt="Fone de ouvido gamer">
-        </article>
-
-        <!-- Exemplo de produtos futuros -->
-        <article class="produto">
-          <img src="./imagem/TelaInicial/ProdutosIniciais/mouse.png" alt="Produto em destaque 4">
-        </article>
-
-        <article class="produto">
-          <img src="./imagem/TelaInicial/ProdutosIniciais/produto5.png" alt="Produto em destaque 5">
-        </article>
-
-        <article class="produto">
-          <img src="./imagem/TelaInicial/ProdutosIniciais/produto6.png" alt="Produto em destaque 6">
-        </article>
-      </div>
+        </div>
     </section>
   </main>
 

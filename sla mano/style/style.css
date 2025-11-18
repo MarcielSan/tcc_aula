@@ -1,60 +1,99 @@
 body {
-    background: linear-gradient(to bottom, #2B2B2B , #1e1e1e 41rem);
+    background: linear-gradient(to bottom, #2B2B2B , #8C00FF);
     padding: 0;
     margin: 0;
 }
 
 
-header {
-    background-color: #000000;
+.cabecario {
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    background-color: #000000;
 }
 
-.nav{
-    position: relative;
-    top: -0.4rem;
-    left: 8rem;
+.header-esquerda {
+    display: flex;
 }
+
+.LogoSite {
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    margin-left: 1rem;
+}
+
+.localizacao {
+    height: 40px;
+    width: 32px;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+}
+
+.header-meio {
+
+}
+
 
 .barra-pesquisa{
     border: transparent;
-    width: 500px;
-    height: 35px;
-    border-radius: 20px;
-    background-color: #757575;
-    color: rgb(202, 202, 202);
-    white-space: nowrap;
-    padding-right: 50px; /* Para dar espaço à lupa */
+    width: 40rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding-right: 60px; /* Para dar espaço à lupa */
     padding-left: 10px;
+    margin-top: 1rem;
 }
 
-.user{
-    position: relative;
-    top: 0.25rem;
+.lupa{
+    position: absolute;
+    margin-left: -3rem;
+    margin-top: 1.3rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.conta {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.header-direita {
+    display: flex;    
 }
 
 .boneco{
-    position: relative;
-    top: 0.4rem;
-    left: 4rem;
+    width: 3rem;
+    height: 3rem;
+    margin-left: ;
+    margin-right: ;
+    margin-top: 1rem;
 }
 
-
-.lupa{
-    position: relative;
-    top: 8px;
-    right: 40px;
-}
-
-.coracao{
-    position: relative;
+.favoritos{
     top: 0.25rem;
     left: -1rem;
+    width: 50px;
+    height: 50px;
 }
 
 .carrinho{
-   position: relative;
-   top: 0.25rem;
+    width: 39px;
+    height: 40px;
+}
+
+.desconto {
+    margin-left: 43rem;
+    margin-top: 2rem;
+    width: 40rem;
+    height: 20rem;
+    border-radius: 1rem;
+}
+.desconto:hover{
+    transform: scale(1.1);
+}
+
+.produto {
+
 }

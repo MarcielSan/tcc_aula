@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background: linear-gradient(to bottom, #2B2B2B , #8C00FF);
     padding: 0;
@@ -97,3 +98,169 @@ body {
 .produto {
 
 }
+=======
+/* ====== RESET E BASE ====== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #2B2B2B;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    line-height: 1.5;
+  }
+  
+  /* ====== CABEÇALHO ====== */
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 0.5rem 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* ====== LOGO E LOCALIZAÇÃO ====== */
+  .header-esquerda {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .logo-site {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
+  }
+  
+  .logo-site:hover {
+    transform: scale(1.05);
+  }
+  
+  .localizacao {
+    height: 36px;
+    width: auto;
+  }
+  
+  /* ====== BARRA DE PESQUISA ====== */
+  .form-pesquisa {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .barra-pesquisa {
+    width: 100%;
+    max-width: 600px;
+    height: 38px;
+    border: none;
+    border-radius: 20px;
+    padding: 0 1rem;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .barra-pesquisa:focus {
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0 0 6px #00aaff;
+  }
+  
+  /* ====== ÍCONES DA DIREITA ====== */
+  .header-direita {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .header-direita button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .header-direita button:hover {
+    transform: scale(1.1);
+  }
+  
+  .header-direita img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  /* ====== BANNER PRINCIPAL ====== */
+  .banner img {
+    width: 80rem;
+    height: 40rem;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* ====== PRODUTOS EM DESTAQUE ====== */
+  main {
+    padding: 2rem 1rem;
+  }
+  
+  .destaques-produtos {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .destaques-produtos h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #00aaff;
+  }
+  
+  .lista-produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .produto {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .produto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 170, 255, 0.3);
+  }
+  
+  .produto img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* ====== TIPOGRAFIA RESPONSIVA ====== */
+  h1, h2, h3 {
+    font-weight: 600;
+  }
+  
+  @media (min-width: 768px) {
+    .destaques-produtos h2 {
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .destaques-produtos h2 {
+      font-size: 3rem;
+    }
+  }
+  
+>>>>>>> c51f660ba7f55e1b87239fd7546c0fd8cd110d0f

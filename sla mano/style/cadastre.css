@@ -8,7 +8,7 @@ body {
 }
 
 header{
-    background: #000000b7;
+    background-color: black;
     justify-content: space-between;
     padding: 20px;
     display: flex;
@@ -17,6 +17,16 @@ header{
 
 .login {
     display: flex;
+}
+
+.logo {
+    height: auto;
+    width: auto;
+
+}
+
+.logo:hover{
+    transform: scale(1.1);
 }
 
 .barra-pesquisa{
@@ -99,16 +109,31 @@ input[type="email"], input[type="password"] {
     transform: scale(1.1);
 }
 
-.Termos-de-uso{
+.entrar {
     color: #ffffff;
     margin-left: 24px;
 }
 
-.Link-Termos {
+.entrar:hover{
+    color: #a304ff;
+
+}
+
+
+
+
+
+
+.Termos-de-uso2 {
+    color: #ffffff;
+    margin-left: 24px;
+}
+
+.Link-Termos2 {
     color: #ffffff;
 }
 
-.Link-Termos:hover{
+.Link-Termos2:hover{
     color: #a304ff;
 
 }

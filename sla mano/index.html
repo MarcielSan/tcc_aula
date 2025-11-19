@@ -4,39 +4,110 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ctrl Zone</title>
-  <link rel="stylesheet" href="./style/style.css">
+  <!-- Mantive o link para o seu CSS, que criaremos a seguir -->
+  <link rel="stylesheet" href="./style/style.css"> 
 </head>
 <body>
-    <header class="cabecario">
+    <!-- Cabeçalho Principal -->
+    <header class="main-header">
+        <div class="header-left">
+            <!-- Link para a página inicial envolvendo o logo -->
+            <a href="/">
+                <img class="site-logo" src="./imagem/TelaInicial/Header/LogoSite 1.png" alt="Logo da Ctrl Zone - Voltar para Início">
+            </a>
+            <button class="location-btn" aria-label="Ver localização do usuário">
+                <img src="./imagem/TelaInicial/Header/icone navegação.png" alt="Ícone de localização">
+            </button>
+        </div>
 
-        <div class="header-esquerda">
-            <img class="LogoSite" src="./imagem/TelaInicial/Header/LogoSite.png" alt="Logo do Site">
-            <img class="localizacao" src="./imagem/TelaInicial/Header/icone navegação.png" alt="Localização do usuário">
-        </div>
-        <div class="header-meio">
-            <input class="barra-pesquisa" type="text" placeholder="Procure aqui no CtrlZone">
-            <img class="lupa" src="./imagem/Entrar/Header/search.png" alt="Lupa da pesquisa">
-            <img class="conta" src="./imagem/TelaInicial/Header/icone usuario.png" alt="Crie Conta">
-        </div>
-        <div class="header-direita">
-            <img class="boneco" src="./imagem/TelaInicial/Header/icone boneco.png" alt="Acessibilidade (eu acho)">
-            <img class="favoritos" src="./imagem/TelaInicial/Header/icone coração.png" alt="Favoritos">
-            <img class="carrinho" src="./imagem/TelaInicial/Header/icone carrinho.png" alt="Carriinho de compra">
+        <!-- Formulário de Pesquisa -->
+        <form class="search-form" action="/search" method="get">
+            <input class="search-input" type="text" name="query" placeholder="Procure aqui no CtrlZone">
+            <button class="search-btn" type="submit" aria-label="Pesquisar">
+                <img src="./imagem/Entrar/Header/search.png" alt="Lupa de pesquisa">
+            </button>
+        </form>
+
+        <!-- Área de Ícones de Usuário/Carrinho -->
+        <div class="header-right">
+            <a href="/login" class="header-icon-link" aria-label="Entrar ou Criar Conta">
+                 <img src="./imagem/TelaInicial/Header/icone usuario.png" alt="Ícone de usuário (conta)">
+            </a>
+            <!-- Não consegui identificar a função exata deste ícone -->
+            <button class="header-icon-link accessibility-btn" aria-label="Acessibilidade">
+                <img src="./imagem/TelaInicial/Header/icone boneco.png" alt="Ícone de acessibilidade">
+            </button>
+            <a href="/favorites" class="header-icon-link" aria-label="Ver Favoritos">
+                <img src="./imagem/TelaInicial/Header/icone coração.png" alt="Ícone de coração (favoritos)">
+            </a>
+            <a href="/cart" class="header-icon-link" aria-label="Ir para o Carrinho de Compras">
+                <img src="./imagem/TelaInicial/Header/icone carrinho.png" alt="Ícone de carrinho de compras">
+            </a>
         </div>
     </header>
 
-    <a href="#"><img class="desconto" src="./imagem/TelaInicial/propaganda/DescontoConcerto.png" alt="Propaganda da tela iniçial"></a>
-    <script src="./java/script.js"></script>
-    <section class="destaques-produtos">
-        <div class="produto">
-            <img src="./imagem/TelaInicial/ProdutosIniciais/Teclado.png" alt="Teclado-Produto">
-            <!--Éssa parte é necessário usaqr banco de dados, pois ficará as avaliações dos produtos-->
-            <h2 class="nome-produto">Havit KB892L</h2>
+    <!-- Navegação Secundária (Links de categorias, etc.) -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#">Promoções</a></li>
+            <li><a href="#">Computadores</a></li>
+            <li><a href="#">Hardware</a></li>
+            <li><a href="#">Periféricos</a></li>
+            <li><a href="#">Ofertas do Dia</a></li>
+        </ul>
+    </nav>
 
-        </div>
-    </section>
-  </main>
+    <!-- Conteúdo Principal da Página -->
+    <main>
+        <!-- Banner Principal de Propaganda -->
+        <section class="hero-banner">
+            <a href="#">
+                <img class="banner-img" src="./imagem/TelaInicial/propaganda/DescontoConcerto.png" alt="Propaganda: Desconto em Concertos de Equipamentos">
+            </a>
+        </section>
 
-  <script src="./java/script.js" defer></script>
+        <!-- Seção de Destaques de Produtos -->
+        <section class="featured-products-section">
+            <h2>Destaques da Semana</h2>
+            
+            <div class="product-grid">
+                <!-- Item de Produto Individual -->
+                <div class="product-card">
+                    <a href="/produto/havit-kb892l">
+                        <img class="product-img" src="./imagem/TelaInicial/ProdutosIniciais/Teclado.png" alt="Teclado Havit KB892L">
+                    </a>
+                    <!-- Espaço para avaliações (como você mencionou) -->
+                    <div class="product-rating">
+                        <!-- Estrelas de avaliação iriam aqui, geralmente dinâmicas via JS/BD -->
+                        ⭐⭐⭐⭐☆ (4.5/5)
+                    </div>
+                    <h3 class="product-name">Havit KB892L</h3>
+                    <p class="product-price">R$ 199,90</p>
+                    <button class="add-to-cart-btn">Adicionar ao Carrinho</button>
+                </div>
+
+                <!-- Adicione mais itens de produto aqui (copie e cole a div .product-card) -->
+                 <div class="product-card">
+                    <a href="/produto/outro-produto">
+                        <img class="product-img" src="./imagem/TelaInicial/ProdutosIniciais/mouse.png" alt="Mouse">
+                    </a>
+                    <div class="product-rating">
+                        ⭐⭐⭐⭐⭐ (5/5)
+                    </div>
+                    <h3 class="product-name">Outro Produto</h3>
+                    <p class="product-price">R$ 99,90</p>
+                    <button class="add-to-cart-btn">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé (Adicionado para completar a estrutura básica de um site) -->
+    <footer>
+        <p>&copy; 2025 Ctrl Zone. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Script JavaScript -->
+    <script src="./java/script.js" defer></script>
 </body>
 </html>

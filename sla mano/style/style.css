@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f4f4f9;
+  background: linear-gradient(to bottom, #8a0bf1ec , #1e1e1e 54rem);
   color: #333;
   line-height: 1.6;
 }
@@ -138,8 +138,8 @@ main {
 /* --- Seção de Produtos em Destaque --- */
 .featured-products-section h2 {
   margin-bottom: 20px;
-  color: #1a1a2e;
-  border-bottom: 2px solid #e94560;
+  color: white;
+  border-bottom: 2px solid purple;
   display: inline-block;
   padding-bottom: 5px;
 }
@@ -152,7 +152,7 @@ main {
 }
 
 .product-card {
-  background: white;
+  background: rgba(0, 0, 0, 0.082);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -179,8 +179,9 @@ main {
 
 .product-name {
   font-size: 1.1rem;
-  color: #333;
+  color: purple;
   margin-bottom: 10px;
+  opacity: 100%;
 }
 
 .product-price {

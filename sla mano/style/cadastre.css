@@ -29,30 +29,6 @@ header{
     transform: scale(1.1);
 }
 
-.barra-pesquisa{
-    color: #000000;
-    font-size: 16px;
-    background-color: rgba(255, 255, 255, 0.952);
-    margin-top: 0.2rem;
-    margin-left: 35rem;
-    height: 32px;
-    width: 750px;
-    border-radius: 15px;
-    border: none;
-    position: absolute;
-    padding: 9px;
-    white-space: nowrap;
-    padding-right: 70px; /* Para dar espaço à lupa */
-
-}
-
-.lupa{
-    position: relative;
-    left: 83.5rem;
-    margin-top: 14px;
-    width: 2rem;
-    
-}
 
 .caixa-principal{
     padding: 150px;
@@ -113,15 +89,6 @@ input[type="email"], input[type="password"] {
     color: #ffffff;
     margin-left: 24px;
 }
-
-.entrar:hover{
-    color: #a304ff;
-
-}
-
-
-
-
 
 
 .Termos-de-uso2 {

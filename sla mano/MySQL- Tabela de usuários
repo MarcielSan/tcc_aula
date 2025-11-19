@@ -1,0 +1,26 @@
+CREATE DATABASE Cntrlzone;
+USE Cntrlzone;
+
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(120) NOT NULL UNIQUE,
+    senha_hash VARCHAR(255) NOT NULL,
+    telefone VARCHAR(20),
+    data_criacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE enderecos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    usuario_id INT NOT NULL,
+    cep VARCHAR(10),
+    rua VARCHAR(150),
+    numero VARCHAR(10),
+    complemento VARCHAR(100),
+    cidade VARCHAR(100),
+    estado VARCHAR(50),
+    pais VARCHAR(50),
+
+    FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
+        ON DELETE CASCADE
+);

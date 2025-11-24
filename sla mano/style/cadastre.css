@@ -85,22 +85,39 @@ input[type="email"], input[type="password"] {
     transform: scale(1.1);
 }
 
+.logando {
+    margin-top: 10px;
+    font-size: large;
+}
+
+
+
 .entrar {
-    color: #ffffff;
+    color: #ffffff73;
     margin-left: 24px;
 }
 
-
-.Termos-de-uso2 {
+.link-login {
     color: #ffffff;
+    text-decoration: none;
+}
+
+.link-login:hover {
+    color: #a304ff;
+}
+
+
+.Termos-de-uso {
+    color: #ffffff73;
     margin-left: 24px;
 }
 
-.Link-Termos2 {
+.Link-Termos {
     color: #ffffff;
+
 }
 
-.Link-Termos2:hover{
+.Link-Termos:hover{
     color: #a304ff;
 
 }

@@ -48,19 +48,19 @@ img {
 }
 
 /* Estilo dos botões e links de ícones no cabeçalho */
-.location-btn, .header-icon-link {
+.header-icon-link {
   background: none;
   border: none;
   cursor: pointer;
   padding: 0;
 }
 
-.location-btn img, .header-icon-link img {
+.header-icon-link img {
   height: 24px; /* Tamanho padrão para ícones */
   transition: transform 0.2s;
 }
 
-.location-btn:hover img, .header-icon-link:hover img {
+.header-icon-link:hover img {
   transform: scale(1.1);
 }
 

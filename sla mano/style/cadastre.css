@@ -106,7 +106,7 @@ input[type="email"], input[type="password"] {
     color: #a304ff;
 }
 
-
+/*
 .Termos-de-uso {
     color: #ffffff73;
     margin-left: 24px;
@@ -121,6 +121,58 @@ input[type="email"], input[type="password"] {
     color: #a304ff;
 
 }
+*/
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+    color: #fff; /* opcional */
+}
+
+/* Esconde o checkbox original */
+.checkbox-container input {
+    display: none;
+}
+
+/* Quadradinho */
+.checkmark {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #8a0bf1ec; /* cor da borda */
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+}
+
+/* O "certinho" (invisível por padrão) */
+.checkmark::after {
+    content: "";
+    width: 6px;
+    height: 12px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    position: absolute;
+    top: 1px;
+    left: 6px;
+    transform: rotate(45deg);
+    opacity: 0;
+}
+
+/* Quando marcado */
+.checkbox-container input:checked + .checkmark {
+    background-color: #8a0bf1ec;
+}
+
+/* Mostra o certinho */
+.checkbox-container input:checked + .checkmark::after {
+    opacity: 1;
+}
+
+
 
 .rodape{
     background: linear-gradient(to bottom, #1e1e1ed7,  #8a0bf186);

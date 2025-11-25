@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Carrinho - CtrlZone</title>
+    <link rel="stylesheet" href="./style/carrinho.css">
+    <link rel="icon" href="./imagem/TelaInicial/Header/LogoSite 1.png">
+</head>
+<body>
+    <header>
+        <a href="./index.html">
+            <img class="logo" src="./imagem/TelaInicial/Header/LogoSite 1.png" alt="Logo">
+        </a>
+        <nav>
+            <a href="./index.html">Início</a>
+            <a href="./login.html">Login</a>
+            <a href="./carrinho.html">Carrinho</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1 class="titulo-pagina">Seu Carrinho de Compras</h1>
+
+        <div class="conteudo-carrinho">
+            <div class="lista-itens">
+                <!-- Item de Exemplo 1 -->
+                <div class="item-carrinho">
+                    <img src="./imagem/TelaInicial/ProdutosIniciais/Teclado.webp" alt="Produto 1">
+                    <div class="detalhes-item">
+                        <h3>Headset Gamer HyperX Cloud Alpha</h3>
+                        <p class="preco">R$ 499,90</p>
+                        <div class="quantidade">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                            <button class="remover">Remover</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Item de Exemplo 2 -->
+                <div class="item-carrinho">
+                    <img src="./imagem/TelaInicial/ProdutosIniciais/mouse.png" alt="Produto 2">
+                    <div class="detalhes-item">
+                        <h3>Mouse Gamer Logitech G502 Hero</h3>
+                        <p class="preco">R$ 250,00</p>
+                        <div class="quantidade">
+                            <button>-</button>
+                            <span>2</span>
+                            <button>+</button>
+                            <button class="remover">Remover</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Resumo do Pedido -->
+            <div class="resumo-pedido">
+                <h2>Resumo do Pedido</h2>
+                <div class="linha-resumo">
+                    <span>Subtotal:</span>
+                    <span>R$ 1000,00</span>
+                </div>
+                <div class="linha-resumo">
+                    <span>Frete:</span>
+                    <span>Grátis</span>
+                </div>
+                <div class="linha-resumo total">
+                    <span>Total:</span>
+                    <span>R$ 1000,00</span>
+                </div>
+                <button class="botao-finalizar">Finalizar Compra</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

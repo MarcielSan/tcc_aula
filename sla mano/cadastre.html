@@ -12,47 +12,43 @@
         <a href="./index.html">
             <img class="logo" src="./imagem/TelaInicial/Header/LogoSite 1.png" alt="Logo">
         </a>
-        <div>
-            <head>
-                
-                <link rel="shortcut icon" type="image/x-icon" href="./imagem/Entrar/Header/search.png">
-
-            </head>
-        </div>
     </header>
 
     <section class="caixa">
         <div class="caixa-principal">
             <h1 class="texto-principal">Cadastre-se</h1>
             <p class="apresentacao-caixa">Crie uma conta para se familiarizar com o nosso site</p>
-            <form action="#" method="post">
+
+            <form id="formCadastro">
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" required>
 
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha" required>
+                <label for="senha1">Senha:</label>
+                <input type="password" id="senha1" required>
 
-                <label for="senha">Confirme a senha:</label>
-                <input type="password" id="senha" name="senha" required>
+                <label for="senha2">Confirme a senha:</label>
+                <input type="password" id="senha2" required>
 
-                <button class="botao-logavel" type="submit">Entrar</button>
-
+                <button class="botao-logavel" type="submit">Cadastrar</button>
 
                 <div class="logando">
-                    <p class="entrar">Já tenho uma conta!  <a class="link-login" href="./login.html">Acessa-la</a></p>
-                    
-                    <!-- <p class="Termos-de-uso">Li e concordo com os <a class="Link-Termos" href="#">termos de uso</a></p> -->
+                    <p class="entrar">Já tenho uma conta!  
+                        <a class="link-login" href="./login.html">Acessa-la</a>
+                    </p>
+
                     <label class="checkbox-container">
                         <input type="checkbox" id="termos">
                         <span class="checkmark"></span>
-                        <p>Li e concordo com os termos de uso
+                        <p>Li e concordo com os termos de uso</p>
                     </label>
-                    
                 </div>
-            </form>    
+            </form>
+
+            <p id="mensagem" style="margin-top: 10px; color: white;"></p>
+
         </div>
     </section>
+
+    <script src="./java/cadastro.js"></script>
 </body>
 </html>
-
-<script src="./java/login.js"></script>

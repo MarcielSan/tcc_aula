@@ -53,6 +53,7 @@ img {
   border: none;
   cursor: pointer;
   padding: 0;
+  margin-right: 4rem;
 }
 
 .header-icon-link img {
@@ -75,13 +76,13 @@ img {
 .search-input {
   width: 100%;
   padding: 10px 15px;
-  border: 1px solid #ddd;
+  border: 2px solid purple;
   border-radius: 4px 0 0 4px;
   font-size: 1rem;
 }
 
 .search-btn {
-  background-color: #e94560; /* Cor de destaque */
+  background-color: purple; /* Cor de destaque */
   border: none;
   padding: 0 15px;
   cursor: pointer;

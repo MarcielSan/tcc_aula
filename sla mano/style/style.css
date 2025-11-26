@@ -79,6 +79,7 @@ img {
   border: 1px solid purple;
   border-radius: 4px 0 0 4px;
   font-size: 1rem;
+  align-items: center;
 }
 
 .search-btn {
